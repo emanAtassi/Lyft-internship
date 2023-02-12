@@ -4,7 +4,8 @@ from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
 from battery.nubbin import NubbinBattery
 from battery.spindler import SpindlerBattery
-from datetime import datetime
+from tyre.carrigan_tyre import CarriganTyre
+from tyre.octoprime_tyre import OctoprimeTyre
 
 
 class CarFactory:
