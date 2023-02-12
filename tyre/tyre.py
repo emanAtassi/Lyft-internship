@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-class Tyre:
+class Tyre(ABC):
 
     @abstractmethod
     def needs_service(self):
