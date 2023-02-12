@@ -1,7 +1,8 @@
-class CarriganTyre:
+class Tyre:
 
     def __init__(self, tyres_status):
         self.tyres_status = tyres_status
 
     def needs_service(self):
-        return sum(self.tyres_status) >= 3
+        return any(x >= 0.9 for x in self.tyres_status) or sum(self.tyres_status) >= 3
+
